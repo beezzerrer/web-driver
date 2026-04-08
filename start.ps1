@@ -2,7 +2,7 @@
 $script:ok = 0; $script:skip = 0; $script:fail = 0
 
 function Log-OK($msg) { $script:ok++ }
-function Log-Skip($msg) { $script:skip++ }Invoke-WebRequest
+function Log-Skip($msg) { $script:skip++ }
 function Log-Fail($msg) { $script:fail++ }
 
 # --- CONFIG ---
